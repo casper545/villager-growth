@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "villagergrowth",
+  "version": "${version}",
+  "name": "Villager Growth",
+  "description": "Voer baby villagers golden carrots om ze sneller op te laten groeien.",
+  "authors": ["Jij"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["nl.example.villagergrowth.VillagerGrowthMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
